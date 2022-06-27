@@ -25,3 +25,4 @@ spaces = [True, True, False, False]
 # the vocab needs to be passed in, by the way
 doc = Doc(nlp.vocab, words=words, spaces=spaces)
 print(doc.text)
+# print(doc.ents)
